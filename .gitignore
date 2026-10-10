@@ -1,0 +1,37 @@
+# Secrets and local config (secrets live in Modal, never in the repo)
+.env
+.env.*
+!.env.example
+.modal.toml
+*.pem
+*.key
+
+# Editor / tool state
+.claude/
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / frontend build
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Local data, caches and model outputs
+dev/.cache/
+*.npy
+*.mp4
+*.mov
+*.webm
+*.mkv
+*.log

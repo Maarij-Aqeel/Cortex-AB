@@ -1,0 +1,8 @@
+# Local tooling only. The backend's runtime dependencies are declared in the
+# Modal images in backend/app.py and installed in the cloud, not here.
+modal>=1.5
+fastapi[standard]
+pytest
+numpy
+nibabel
+nilearn
